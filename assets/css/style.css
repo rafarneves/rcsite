@@ -87,7 +87,7 @@ A. Basic Styling
 body {
     color: #fff;
     background-color: #020312;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     margin: 0;
     padding: 0;
@@ -1195,22 +1195,22 @@ blockquote h6 {
     transform: translateX(0%);
 }
 
-.ts-btn-effect:hover .ts-visible {
+/*.ts-btn-effect:hover .ts-visible {
     transform: translateX(100%);
-}
+} */
 
 .ts-btn-effect .ts-visible {
     transform: translateX(0%);
     transition: .3s ease;
 }
 
-.ts-btn-effect .ts-hidden {
+/* .ts-btn-effect .ts-hidden {
     position: absolute;
     top: 0;
     left: 0;
     transform: translateX(-100%);
     transition: .3s ease;
-}
+} */
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background-color: #f26c4f;
